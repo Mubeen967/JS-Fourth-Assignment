@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stop Watch</title>
     <link rel="stylesheet" href="stop.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-    
+    <div class="main">
+        <div class="heading">
+            <h1>Stop Watch</h1>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col layout w3-animate-left">
+                    <h1>
+                        <span id="hour">00</span>:
+                        <span id="min">00</span>:
+                        <span id="sec">00</span>:
+                        <span id="milisec">00</span>
+                    </h1> 
+                    <span id="hour1">00</span><sub>hrs</sub>
+                    <span id="min1">00</span><sub>min</sub>
+                    <span id="sec1">00</span><sub>sec</sub>
+                    <span id="milisec1">00</span><sub>msec</sub>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="row">
+            <div class="col status ">
+                <p class="status1" id = "runstatus">Ready</p>
+            </div>
+        </div>
+        
+        <button  onclick="start()" class=" btn fa fa-play" id="play"></button>
+        <button onclick="reset()" class="btn fa fa-repeat"></button>
+        <button class=" btn-lap" onclick="lap()">lap</button>
+    </div>
+    </div>
+    <div id="showInterval">
+
+    </div>
 </body>
 <script src="app.js"></script>
+
 </html>

@@ -1,0 +1,131 @@
+.main{
+    text-align: center;
+
+
+}
+body{
+background-color: black !important;   
+
+overflow-x: hidden;
+}
+.heading{
+    /* color: white;
+    /* font-family: "digital-7"; */
+    font-size: 24px;
+    padding: 20px 0px 0px 0px;
+    color: White;
+    text-shadow: 1px 1px 2px  yellow !important;
+    
+
+
+
+
+}
+
+
+
+
+.layout>h1 {
+
+    display: flex;
+    /* flex-direction: row; */
+    /* padding: 2px 0px; */
+    margin-left: 30px;
+    color: White;
+    /* font-weight: bold !important; */
+    /* text-transform: none; */
+    width: 60px !important;
+   
+
+   
+}
+
+
+.layout>span , p , sub{
+
+    display: inline-block;
+    /* padding: 5px 0px; */
+    /* margin-left: 10px; */
+    color: White;
+    /* font-weight: bold !important; */
+    
+   width: 18px;
+
+   
+}
+
+.status1{
+    /* display: inline; */
+
+    border-bottom: 2px solid #fff;
+    width: 200px;
+
+    
+}
+.container{
+    
+    width: 300px !important; 
+    height: 300px; 
+    border-radius: 50%;
+    margin-top: 30px;
+    padding: 120px 0px;
+    border:  5px solid #aaaaaa;
+}
+.status{
+    margin-top: 5px;
+    color: White;
+    /* border-bottom: white !important; */
+
+    
+}
+.btn{
+    color:#aaaaaa;
+    border-radius: 50% !important;
+    padding: 16px 20px!important;
+    font-size: 20px !important;
+    margin-right: 10px;
+    background-color: aliceblue !important;
+}
+.btn-lap{
+    /* color:#aaaaaa; */
+    border-radius: 50% !important;
+    padding: 14px 18px!important;
+    /* background: none; */
+    text-decoration: none;
+    background-color: aliceblue !important;
+
+
+    /* padding: 4px; */
+}
+.showIntervalTime{
+           display: block;
+        /* padding: 5px !important; */
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 400;
+        line-height: 60px;
+        /* border-radius: 5px;
+        width:60%; */
+        /* margin: auto; */
+        /* border-bottom: dotted 1px #444; */
+        color: #fff;
+    }
+/* #showInterval{ */
+    /* height:350px !important;
+    overflow-y: auto;
+    width:50%;
+    margin:0px auto;
+} */
+h2{
+    display: inline;
+    flex-direction: row;
+    padding: 15px !important;
+    
+
+}
+.lap{
+    font-weight: bolder;
+    font-size: x-large;
+     width: 20px !important;
+    /*margin: 10px 0px 0px 0px; */
+     /* margin-right: 20px;  */
+}
